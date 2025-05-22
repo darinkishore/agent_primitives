@@ -3,5 +3,12 @@ name = "agent-primitives"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.11"
+authors = [
+    { name = "Darin Kishore", email = "darinkishore@protonmail.com" }
+]
+requires-python = ">=3.12"
 dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
